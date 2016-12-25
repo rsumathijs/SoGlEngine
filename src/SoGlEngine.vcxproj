@@ -131,6 +131,7 @@ copy /y "$(SolutionDir)..\external\VLD\lib\$(Platform)\*.*" "$(SolutionDir)bin\$
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
+    <ClInclude Include="RTTI.h" />
     <ClInclude Include="system_constants.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
