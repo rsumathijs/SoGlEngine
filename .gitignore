@@ -1,0 +1,6 @@
+external/
+build/bin/
+build/obj/
+*.suo
+*.sdf
+*.opensdf
